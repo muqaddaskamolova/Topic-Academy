@@ -12,18 +12,18 @@ import "./assets/css/index.css";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container mx-auto ">
      
-      <Navbar/>
+      <Navbar/> 
       <Hero />
-      <Suggestion />
-      <Results />
-      <Grant />
-      <Aid />
-      <Courses />
-      <About />
-      <FAQ />
-      <Footer />
+      <Suggestion /> 
+      <Results /> 
+      <Grant /> 
+      <Aid /> 
+      <Courses /> 
+      <About /> 
+      <FAQ /> 
+      <Footer /> 
     </div>
   );
 }

@@ -1,9 +1,6 @@
 import Menu from './Menu';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
-
-// import "../assets/header.css";
-
 function Navbar() { 
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -16,10 +13,6 @@ function Navbar() {
   return (
     <div className="navbar align-content py-0">
       <div className="navbar-start flex items-center justify-between">
-        {/* Logo rasmiga havola */}
-        <a href="#logo">
-          <img src="./logo.png" alt="Logo" className="h-12" />
-        </a>
         
         {/* Mobil menyu tugmasi */}
         <button 
@@ -38,23 +31,23 @@ function Navbar() {
         </button>
         
         {/* Menyu (mobilda ochiriladigan bo'lsa) */}
-        <div className={`lg:flex lg:ml-16 ${isOpen ? 'block' : 'hidden'} lg:block`}>
+        <div className={`lg:flex lg:ml-18 ${isOpen ? 'block' : 'hidden'}`}>
           <Menu />
-        </div>
-      </div>
-
-      <div className="navbar-end hidden lg:flex items-center">
+         </div>
+        <div className="navbar-end hidden lg:flex items-center">
         {/* Aloqa ma'lumotlari */}
         <a href="#Contact">
           <p className="flex flex-col font-semibold text-2xl">
             +998 (33) 306 00 98
-            <span>{t("Hoziroq bog'laning")}</span>
+             <span>{t("Hoziroq bog'laning")}</span> 
           </p>
         </a>
       </div>
+      </div>
+
+      
     </div>
   );
 }
 
 export default Navbar;
-

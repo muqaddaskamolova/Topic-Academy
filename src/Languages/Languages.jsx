@@ -13,7 +13,7 @@ function Languages() {
     };
 
     return (
-        <div className="translate flex items-center gap-2">
+        <div className="translate flex items-center gap-1">
             <TbWorld className='translate-icon' />
             <select
                 className='translate-select'
@@ -23,9 +23,9 @@ function Languages() {
                 value={currentLanguage}
             >
                 <optgroup label="Uzbek">
-                    <option value="uz">Uzb</option>
-                    <option value="en">Eng</option>
-                    <option value="ru">Ru</option>
+                    <option value="uz">Uzbek</option>
+                    <option value="en">English</option>
+                    <option value="ru">Russian</option>
                 </optgroup>
             </select>
         </div>

@@ -13,16 +13,17 @@ function Languages() {
     };
 
     return (
-        <div className="translate flex items-center">
-            <TbWorld className='translate-icon' />
+        <div className="translate relative left-[56px] top-[0] flex items-center">
+           
             <select
-                className='translate-select'
+                className='translate-select absolute left-[50] lop-[-50]'
                 name="lng"
                 id="ln"
                 onChange={handleChange}
                 value={currentLanguage}
-            >
+            > 
                 <optgroup label="Uzbek">
+                <TbWorld className='translate-icon' />
                     <option value="uz">Uzbek</option>
                     <option value="en">English</option>
                     <option value="ru">Russian</option>

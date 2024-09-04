@@ -42,8 +42,7 @@ function Aid() {
     <div className="align-content mt-10 px-4 lg:px-0">
       {/* Sarlavha */}
       <h3 className="text-2xl lg:text-4xl font-semibold text-center mb-10 max-w-3xl mx-auto">
-        {t("")}Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda
-        yordam beramiz
+        {t("Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz")}
       </h3>
       
       <div className="flex flex-col gap-5 sm:flex-row items-center">

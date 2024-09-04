@@ -7,6 +7,7 @@ import Languages from '../Languages/Languages';
 //<TbWorld className='translate-icon ' />
 function Menu() {
     const { t } = useTranslation();
+    
     return (
         <div className="header ">
             <div className="header-wrapper container mx-auto flex flex-col lg:flex-row items-center justify-between">

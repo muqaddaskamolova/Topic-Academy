@@ -20,11 +20,12 @@ function Menu() {
                             <li className="nav-item">{t("Natijalar")}</li>
                             <li className="nav-item">{t("Kurslar")}</li>
                             <li className="nav-item">{t("Ko’p beriladigan savollar")}</li>
-                            
+                            <Languages/>
                         </ul>
+                     
                     </nav>
-                    <Languages/>
                 </div>
+               
             </div>
         </div>
     );

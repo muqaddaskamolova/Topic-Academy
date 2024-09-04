@@ -1,6 +1,8 @@
 import Menu from './Menu';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
+//import Languages from '../Languages/Languages';
+
 function Navbar() { 
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -34,19 +36,19 @@ function Navbar() {
         <div className={`lg:flex lg:ml-18 ${isOpen ? 'block' : 'hidden'}`}>
           <Menu />
          </div>
+         
         <div className="navbar-end hidden lg:flex items-center">
         {/* Aloqa ma'lumotlari */}
         <a href="#Contact">
           <p className="flex flex-col font-semibold text-2xl">
             +998 (33) 306 00 98
-             <span>{t("Hoziroq bog'laning")}</span> 
+             <span>{t("Hoziroq bog'\nlaning")}</span> 
           </p>
         </a>
       </div>
+     
       </div>
-
-      
-    </div>
+</div>
   );
 }
 

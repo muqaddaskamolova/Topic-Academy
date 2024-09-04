@@ -5,7 +5,7 @@ import Money from "../assets/images/reklama3.png";
 import Travel from "../assets/images/reklama4.png";
 import Target from "../assets/images/reklama5.png";
 import Key from "../assets/images/reklama6.png";
-import { Button, Flex } from 'antd';
+import { Button } from 'antd';
 import { useTranslation } from "react-i18next";
 
 function Suggestion() {
@@ -15,7 +15,7 @@ function Suggestion() {
     <div className="py-10 px-4 md:px-8">
       {/* Sarlavha */}
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 max-w-4xl mx-auto">
-        {t("")} TOPIK academiya aniq siz uchun agar siz:
+        {t("TOPIK academiya aniq siz uchun agar siz")} :
       </h2>
       
       {/* Tavsiyalar ro'yxati */}

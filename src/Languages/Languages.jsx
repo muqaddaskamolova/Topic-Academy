@@ -13,7 +13,7 @@ function Languages() {
     };
 
     return (
-        <div className="translate flex items-center gap-1">
+        <div className="translate flex items-center">
             <TbWorld className='translate-icon' />
             <select
                 className='translate-select'

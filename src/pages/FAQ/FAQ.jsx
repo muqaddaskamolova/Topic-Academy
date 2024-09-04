@@ -77,7 +77,7 @@ function FAQ() {
           />
           <button
             type="submit"
-            className="btn btn-success rounded-3xl text-white uppercase py-2 px-4 flex items-center justify-center"
+            className="btn btn-success bg-green-400 rounded-3xl text-white uppercase py-2 px-4 flex items-center justify-center"
             disabled={loading}
           >
             {loading ? 'Yuborilmoqda...' : 'Savol berish'}

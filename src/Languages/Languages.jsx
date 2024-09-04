@@ -1,7 +1,7 @@
 import React from 'react';
 import "./language.css";
 import { useTranslation } from "react-i18next";
-import { TbWorld } from "react-icons/tb";
+
 
 function Languages() {
     const { i18n } = useTranslation();
@@ -13,17 +13,17 @@ function Languages() {
     };
 
     return (
-        <div className="translate relative left-[56px] top-[0] flex items-center">
+        <div className="translate relative left-[40px] top-[0] flex items-center">
            
             <select
-                className='translate-select absolute left-[50] lop-[-50]'
+                className='translate-select absolute right-[-50] top-[-50]'
                 name="lng"
                 id="ln"
                 onChange={handleChange}
                 value={currentLanguage}
             > 
                 <optgroup label="Uzbek">
-                <TbWorld className='translate-icon' />
+                
                     <option value="uz">Uzbek</option>
                     <option value="en">English</option>
                     <option value="ru">Russian</option>

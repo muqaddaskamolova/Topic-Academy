@@ -3,7 +3,8 @@ import React from "react";
 import '../assets/header.css';
 import Logo from '../assets/images/logo.png';
 import Languages from '../Languages/Languages';
-
+//import { TbWorld } from "react-icons/tb";
+//<TbWorld className='translate-icon ' />
 function Menu() {
     const { t } = useTranslation();
     return (
@@ -20,6 +21,8 @@ function Menu() {
                             <li className="nav-item">{t("Natijalar")}</li>
                             <li className="nav-item">{t("Kurslar")}</li>
                             <li className="nav-item">{t("Ko’p beriladigan savollar")}</li>
+                            
+                            
                             <Languages/>
                         </ul>
                      
